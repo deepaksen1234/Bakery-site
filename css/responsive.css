@@ -1,0 +1,501 @@
+@media only screen and (min-width:992px){
+    .fa-bars{
+        display: none;
+    }
+    .fa-xmark{
+        display: none;
+
+    }
+    .overlay-container{
+        display: none;
+
+    }
+    .images-and-text{
+        width: 30%;
+    }
+     .top-section-menu-bar{
+        width: 100%;
+        padding: 45px 0px;
+       position:fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+         visibility: hidden;
+        opacity: 0;
+        transition: 500ms;
+       
+    }
+    .stick .top-section-menu-bar{
+        visibility: visible;
+        opacity: 1;
+    }
+    .stick nav{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: auto;
+        z-index: 1;
+    }  
+    .top-containt{
+        margin-top: 80px;
+    }
+    #section2{
+        height: 60vh;
+    }
+    #about-us1{
+        margin-top: -25px;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width:0px) and (max-width:414px){
+    .top-containt h1{
+        font-size: 26px;
+    }  
+    .top-containt{
+        padding:100px 0px;
+    }
+    section{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .video-section{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .video-containt{
+        width: 100%;
+    }
+    .video-ad{
+        width: 100%;
+        
+    }
+    .video-section{
+        margin-top: 100px;
+    }
+    .video-section h1{
+        font-size: 32px;
+    }
+    .video-section span{
+        font-size: 16px;
+    }
+    .colm-3{
+        width:100%;
+        gap: 10px;
+        
+    }
+    .colum{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    #last-heading{
+        padding: 0px 20px;
+    
+        width: 400px;
+    } 
+    .oralag{
+        margin-bottom: 50px;
+    }
+    #about-us1{
+        margin-top: px;
+    }
+    .single-img{
+        width: 95%;
+        margin: auto;
+    }
+    .only-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-overlay{
+        height: 490px;
+    }
+    .map-box{
+        max-width: 1140px;
+        height: 450px;
+    }
+    #section2{
+        height: 30vh;
+        margin-top: 70px;
+        
+    }
+    #about-us1{
+        font-size: 50px;
+    }
+    /* .top-containt{
+       padding-top: 2px;
+    } */
+     .top-containt2{
+        margin-top: 100px;
+        text-align: center;
+    
+     }
+     section{
+        background-position: center;
+     }
+     .top-containt2 h4{
+        font-size: 18px;
+        padding: 0px 10px;
+     }
+     .top-containt2 h1{
+        font-size: 32px;
+        padding: 0px 10px;
+        
+    }
+    .top-containt2 p{
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .box-form{
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .form-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-section{
+        padding: 20px 0px 0px 0px;
+    }
+    .form-section button{
+        padding: 10px 40px;
+        margin-left: 185px;
+        background-color: #d1ab7f;
+        color: white;
+        border: none;
+        font-size: 14px ;
+        
+    }
+
+    
+   
+    
+   
+    
+}
+@media only screen and (min-width:765px) and (max-width:992px){
+.img1{
+    width: 50%;
+}
+/* .top-containt{
+    margin-top: 250px;
+} */
+.images-and-text{
+    max-width: 40%;
+    margin: auto;
+}
+.images-ofunder-container{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.colm-3{
+    width:45%;
+    
+}
+.colum{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+#last-heading{
+    padding: 30px;
+}
+.map-box{
+    max-width: 1140px;
+    height: 550px;
+    
+}
+.map-parent{
+  padding: 120px 50px;
+}
+
+#section2{
+    height: 40vh;
+    /* margin-top: 70px; */
+    
+}
+#about-us1{
+    font-size: 70px;
+    margin-top: 160px;
+}
+ .top-containt{
+   padding-top: 40px ;
+} 
+#else p{
+    font-size: 20px;
+}
+/* nav{
+    width: 100%;
+} */
+section{
+    background-position: center;
+ }
+ .top-containt2 h4{
+    font-size: 18px;
+    padding: 0px 10px;
+    margin-top: 20px;
+ }
+ .top-containt2 h1{
+    font-size: 32px;
+    padding: 0px 10px;
+    
+}
+.top-containt2 p{
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.overlay2{
+    padding-top: 350px;
+}
+    
+}
+
+
+
+@media only screen and (min-width:0px) and (max-width:764px){
+    .img1{
+        width: 100%;
+        padding: 20px;
+    }
+    .images-and-text{
+        max-width: 90%;
+        margin: auto;
+    }
+    .images-ofunder-container{
+        display:flex ;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:414px) and (max-width:764px){
+    .colm-3{
+        width:50%;
+        gap: 10px;
+        
+    }
+    .colum{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    #last-heading{
+        padding: 30px;
+    } 
+
+    .single-img{
+        width: 92%;
+    }
+    .only-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .map-box{
+        max-width: 1140px;
+        height: 450px;
+    }
+    #section2{
+        height: 30vh;
+        margin-top: 70px;
+        
+    }
+    #about-us1{
+        font-size: 50px;
+    }
+   
+}
+@media only screen and (min-width:428px) and (max-width:764px){
+    .single-img{
+        width: 92%;
+        margin: auto;
+    }
+    .only-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-overlay{
+        height: 300px;
+    }
+    .box-form{
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .form-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-section{
+        padding: 20px 0px 0px 0px;
+    }
+    .form-section button{
+        padding: 10px 40px;
+        margin-left: 200px;
+        background-color: #d1ab7f;
+        color: white;
+        border: none;
+        font-size: 14px ;
+        
+    }
+
+   
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:414px) and (max-width:991px){
+    
+    .top-containt h1{
+        font-size: 44px;
+    } 
+    /* .top-containt{
+        padding: 40px;
+    } */
+    section{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .video-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .video-containt{
+        width: 100%;
+        padding: 10px 10px 100px 10px;
+    }
+    .video-ad{
+        background-size: cover;
+        width: 100%;
+        
+    }
+    .video-containt h1{
+        padding-right: 2px;
+    }
+    .video-containt p{
+        /* padding-right: 20px; */
+        padding: 20px 0px 0px 0px;
+    }
+    .box-form{
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .form-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-section{
+        padding: 20px 0px 0px 0px;
+    }
+    .form-section button{
+        padding: 10px 40px;
+        margin-left: 560px;
+        background-color: #d1ab7f;
+        color: white;
+        border: none;
+        font-size: 14px ;
+        
+    }
+
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:0px) and (max-width:992px) {
+.header-top{
+    display: none;
+}
+
+.bar-section{
+    display: block;
+    cursor: pointer;
+    
+    }
+    nav{
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    } 
+    
+
+    nav ul{
+        position: fixed;
+        top: 0px;
+        left:-100%;
+        display: flex;
+         align-items: baseline;
+         /* justify-content: first baseline; */
+         gap: 30px;
+        flex-direction: column;
+        background-color:rgba(0, 0, 0,0.9);
+        color: #fff;
+        width: 32%;
+        height: 100%;
+        transition: 0.5s;
+    
+}
+nav ul li{
+    margin-top: 10px;
+    
+    margin-left: 10px;
+}
+.fa-bars{
+    display: block;
+    font-size: 20px;
+}
+.fa-xmark{
+    display: block;
+    font-size: 20px;
+}
+.mid-img-section{
+    display: none;
+    width: 100%;
+
+}
+.mid-container-containt{
+    padding: 20px;
+
+}
+
+#section2{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.img-section-round {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+}
